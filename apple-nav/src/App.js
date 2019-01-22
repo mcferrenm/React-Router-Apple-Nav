@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { Route } from "react-router-dom";
 
 import NavList from "./components/NavList";
 
-import categoriesData from "./categoriesData";
 import AppContainer from "./components/Styles/AppContainer";
+
+import categoriesData from "./categoriesData";
 
 class App extends Component {
   constructor() {
@@ -20,7 +22,12 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
-        <NavList categories={this.state.categories} />
+        <Route
+          path="/"
+          render={props => (
+            <NavList {...props} categories={this.state.categories} />
+          )}
+        />
       </AppContainer>
     );
   }
