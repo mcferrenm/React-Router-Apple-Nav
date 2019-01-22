@@ -1,7 +1,7 @@
 const categoriesData = [
   {
     title: null,
-    img: "",
+    img: "./img/apple1.png",
     subCategories: []
   },
   {
@@ -57,54 +57,54 @@ const categoriesData = [
       {
         title: "iPad Pro",
         img: "",
-        new: true
+        isNew: true
       },
       {
         title: "iPad Pro",
         img: "",
-        new: false,
+        isNew: false,
         size: '10.5"'
       },
       {
         title: "iPad",
         img: "",
-        new: false,
+        isNew: false,
         size: '9.7"'
       },
       {
         title: "iPad mini 4",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "iOS 12",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Apple Pencil",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Smart Keyboard",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Accessories",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Compare",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       }
     ]
@@ -116,49 +116,49 @@ const categoriesData = [
       {
         title: "",
         img: "",
-        new: true,
+        isNew: true,
         size: ""
       },
       {
         title: "iPhone Xr",
         img: "",
-        new: true,
+        isNew: true,
         size: ""
       },
       {
         title: "iPhone 8",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "iPhone 7",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "iOS 12",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "AirPods",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Accessories",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Compare",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       }
     ]
@@ -170,49 +170,49 @@ const categoriesData = [
       {
         title: "Apple Watch Series 4",
         img: "",
-        new: true,
+        isNew: true,
         size: ""
       },
       {
         title: "Apple Watch Nike 4+",
         img: "",
-        new: true,
+        isNew: true,
         size: ""
       },
       {
         title: "Apple Watch Hernès",
         img: "",
-        new: TextTrackCueList,
+        isNew: TextTrackCueList,
         size: ""
       },
       {
         title: "Apple Watch Series 3",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "watchOS",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Bands",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Accessories",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Compare",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       }
     ]
@@ -224,31 +224,31 @@ const categoriesData = [
       {
         title: "Apple TV 4k",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Apple TV",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "TV App",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Accessories",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Compare",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       }
     ]
@@ -260,43 +260,43 @@ const categoriesData = [
       {
         title: "Apple Music",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "iTunes",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "HomePod",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "AirPods",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "iPodTouch",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Music Accessories",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       },
       {
         title: "Gift Cards",
         img: "",
-        new: false,
+        isNew: false,
         size: ""
       }
     ]

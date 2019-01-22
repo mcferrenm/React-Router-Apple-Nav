@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-import NavWrapper from "./components/NavWrapper";
+import NavList from "./components/NavList";
 
 import categoriesData from "./categoriesData";
-import "./App.css";
+import AppContainer from "./components/Styles/AppContainer";
 
 class App extends Component {
   constructor() {
@@ -19,9 +19,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <NavWrapper />
-      </div>
+      <AppContainer>
+        <NavList categories={this.state.categories} />
+      </AppContainer>
     );
   }
 }

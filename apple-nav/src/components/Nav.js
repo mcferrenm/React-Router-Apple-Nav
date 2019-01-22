@@ -1,9 +1,13 @@
 import React from "react";
 
-import SubNav from "./SubNav";
+import NavWrapper from "./Styles/NavWrapper";
 
-const Nav = () => {
-  return <SubNav />;
+const Nav = ({ category }) => {
+  return (
+    <NavWrapper>
+      <p>{category.title}</p>
+    </NavWrapper>
+  );
 };
 
 export default Nav;
