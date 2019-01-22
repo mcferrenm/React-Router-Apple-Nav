@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 
 import NavList from "./components/NavList";
+import SubNavList from "./components/SubNavList";
 
 import AppContainer from "./components/Styles/AppContainer";
 
@@ -22,10 +23,11 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
+        <NavList categories={this.state.categories} />
         <Route
-          path="/"
+          path="/:id"
           render={props => (
-            <NavList {...props} categories={this.state.categories} />
+            <SubNavList {...props} categories={this.state.categories} />
           )}
         />
       </AppContainer>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NavListContainer = styled.div`
+const SubNavListContainer = styled.div`
   display: flex;
   max-width: 1024px;
   margin: 0 auto;
@@ -8,4 +8,4 @@ const NavListContainer = styled.div`
   justify-content: space-between;
 `;
 
-export default NavListContainer;
+export default SubNavListContainer;

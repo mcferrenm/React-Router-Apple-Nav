@@ -1,9 +1,13 @@
 import React from "react";
 
-import SubNavContainer from "./Styles/SubNavContainer";
+import SubNavWrapper from "./Styles/SubNavWrapper";
 
-const SubNav = () => {
-  return <SubNavContainer>SubNav</SubNavContainer>;
+const SubNav = props => {
+  return (
+    <SubNavWrapper>
+      <p>{props.subCategory.title}</p>
+    </SubNavWrapper>
+  );
 };
 
 export default SubNav;

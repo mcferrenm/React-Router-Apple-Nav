@@ -6,12 +6,12 @@ const NavWrapper = styled.div`
   justify-content: center;
   padding: 1.6rem;
 
-  p {
+  a {
     font-size: 1.6rem;
     color: rgb(226, 226, 226);
+    text-decoration: none;
 
     :hover {
-      font-size: 1.6rem;
       color: rgb(176, 176, 176);
       cursor: pointer;
     }
