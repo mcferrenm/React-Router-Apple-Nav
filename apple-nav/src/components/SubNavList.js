@@ -12,10 +12,10 @@ const SubNavList = props => {
 
   if (!category) return <h2>Can't find...</h2>;
   return (
-    <SubNavListWrapper>
+    <SubNavListWrapper dark={category.background === "dark"}>
       <SubNavListContainer>
         {category.subCategories.map(subCategory => (
-          <SubNav subCategory={subCategory} />
+          <SubNav subCategory={subCategory} theme={category.background} />
         ))}
       </SubNavListContainer>
     </SubNavListWrapper>

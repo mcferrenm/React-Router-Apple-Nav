@@ -4,8 +4,9 @@ import SubNavWrapper from "./Styles/SubNavWrapper";
 
 const SubNav = props => {
   return (
-    <SubNavWrapper>
+    <SubNavWrapper icon={props.subCategory.icon} theme={props.theme}>
       <p>{props.subCategory.title}</p>
+      <figure />
     </SubNavWrapper>
   );
 };
